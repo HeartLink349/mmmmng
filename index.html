@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>Ahmed & Naira | Happy Birthday</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+:root{--p:#ff4d86;--p2:#ff8fbd;--bg:#050308;--glass:rgba(255,255,255,.075);--b:rgba(255,255,255,.15);--txt:#fff7fb;--muted:rgba(255,247,251,.68);--gold:#ffd36e}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;min-height:100%;font-family:Cairo,system-ui;background:var(--bg);color:var(--txt);overflow:hidden}
+body{background:radial-gradient(700px 420px at 50% -10%,rgba(255,77,134,.28),transparent 65%),radial-gradient(500px 380px at 0 80%,rgba(255,143,189,.16),transparent 62%),linear-gradient(180deg,#100612,#020103)}
+.app{position:relative;min-height:100vh;overflow:hidden}
+.aura,.particles{position:fixed;inset:0;pointer-events:none;z-index:0}.aura{background:conic-gradient(from 90deg,rgba(255,77,134,.15),rgba(255,255,255,.04),rgba(255,143,189,.12),rgba(255,77,134,.15));filter:blur(90px);animation:rot 22s linear infinite;inset:-35%}@keyframes rot{to{transform:rotate(360deg)}}
+.pt{position:absolute;top:-30px;color:var(--p2);opacity:.55;animation:fall linear forwards;filter:drop-shadow(0 0 10px rgba(255,77,134,.5))}@keyframes fall{to{transform:translateY(112vh) rotate(360deg);opacity:.02}}
+.page{position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:20px;overflow-y:auto;z-index:2;opacity:0;transform:scale(.96);filter:blur(12px);transition:.75s cubic-bezier(.2,.8,.2,1)}.page.active{display:flex;opacity:1;transform:scale(1);filter:blur(0)}.wrap{width:min(540px,100%);margin:auto;padding:20px 0}.wide{width:min(680px,100%)}
+.glass{background:linear-gradient(180deg,rgba(255,255,255,.13),rgba(255,255,255,.04));border:1px solid var(--b);border-radius:36px;box-shadow:0 30px 100px rgba(0,0,0,.55);backdrop-filter:blur(24px);position:relative;overflow:hidden}.glass:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 0,rgba(255,77,134,.18),transparent 42%);pointer-events:none}
+.center{text-align:center}.hero{padding:46px 24px}
+
+/* تنسيق الأسماء الكبيرة في الواجهة */
+.main-names {font-size: clamp(45px, 12vw, 70px); font-weight: 900; line-height: 1.2; margin: 15px 0 25px; text-shadow: 0 0 24px rgba(255,77,134,.45); background: linear-gradient(135deg, #fff, var(--p2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+
+/* تنسيق حقل كلمة المرور */
+.pass-input {width: 100%; max-width: 260px; padding: 14px 22px; margin-bottom: 22px; border-radius: 999px; border: 1px solid var(--b); background: rgba(255,255,255,0.08); color: white; font-size: 18px; font-weight: 700; text-align: center; outline: none; backdrop-filter: blur(15px); transition: 0.3s; box-shadow: inset 0 0 10px rgba(0,0,0,0.2);}
+.pass-input::placeholder {color: rgba(255,255,255,0.5); font-weight: normal;}
+.pass-input:focus {border-color: var(--p2); background: rgba(255,255,255,0.12); box-shadow: 0 0 20px rgba(255,77,134,0.4);}
+
+.heart-neon{width:150px;height:150px;margin:18px auto;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle,rgba(255,77,134,.22),transparent 68%);animation:pulse 1.8s infinite}.heart-neon span{font-size:76px;color:var(--p);filter:drop-shadow(0 0 28px rgba(255,77,134,.9))}@keyframes pulse{50%{transform:scale(1.08)}}
+.btn{border:none;border-radius:999px;padding:16px 32px;background:linear-gradient(135deg,var(--p),#7a1234);color:white;font-size:17px;font-weight:900;box-shadow:0 18px 50px rgba(255,77,134,.32);cursor:pointer;min-width:180px;transition:.25s;position:relative;overflow:hidden}.btn:active{transform:scale(.96)}.btn:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.25),transparent);transform:translateX(-120%);transition:.6s}.btn:hover:before{transform:translateX(120%)}.btn.ghost{background:rgba(255,255,255,.08);border:1px solid var(--b);box-shadow:none}
+
+.title{font-size:clamp(32px,8vw,56px);font-weight:900;margin:0 0 12px;background:linear-gradient(135deg,#fff,#ffd3e4,var(--p2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-align:center}.title span{color:initial;-webkit-text-fill-color:initial}
+
+.sub{text-align:center;color:var(--muted);font-weight:800;margin:0 0 24px}.small-label{color:var(--gold);font-weight:900;text-align:center;margin:6px 0 18px;letter-spacing:.5px}
+.counter{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:20px 0 30px}.box{padding:18px 6px;border-radius:24px;background:rgba(255,255,255,.075);border:1px solid var(--b);backdrop-filter:blur(18px);text-align:center;box-shadow:0 18px 50px rgba(0,0,0,.28)}.box b{display:block;font-size:34px;color:#ffd0e0;text-shadow:0 0 15px rgba(255,77,134,.6);transition:.18s}.box span{font-size:11px;color:var(--muted);font-weight:900}
+.music{padding:18px;border-radius:28px;margin:24px 0;background:rgba(255,255,255,.075);border:1px solid var(--b);backdrop-filter:blur(18px)}.music-top{display:flex;align-items:center;gap:13px}.play{width:52px;height:52px;border-radius:50%;border:none;background:linear-gradient(135deg,var(--p),var(--p2));color:white;font-size:18px}.wave{height:34px;display:flex;align-items:center;gap:4px;flex:1}.bar{width:4px;height:10px;border-radius:999px;background:var(--p2);animation:w 1s ease-in-out infinite paused}.playing .bar{animation-play-state:running}.bar:nth-child(2){animation-delay:.1s}.bar:nth-child(3){animation-delay:.2s}.bar:nth-child(4){animation-delay:.3s}.bar:nth-child(5){animation-delay:.4s}@keyframes w{50%{height:31px}}
+.gallery{display:grid;gap:16px;margin:20px 0}.photo{border-radius:28px;overflow:hidden;border:1px solid var(--b);background:rgba(255,255,255,.07);box-shadow:0 18px 50px rgba(0,0,0,.32);opacity:0;transform:translateY(35px) scale(.96);transition:.8s}.photo.show{opacity:1;transform:translateY(0) scale(1)}.photo img{width:100%;display:block}.love-divider{display:flex;align-items:center;gap:12px;margin:30px 0 22px;color:#fff;font-family:"Great Vibes";font-size:42px;justify-content:center}.love-divider:before,.love-divider:after{content:"";height:1px;background:linear-gradient(90deg,transparent,var(--p2));flex:1}.love-divider:after{background:linear-gradient(90deg,var(--p2),transparent)}
+.videos{display:grid;gap:16px}video{width:100%;display:block;border-radius:26px;border:1px solid var(--b);box-shadow:0 18px 60px rgba(0,0,0,.32);background:#000}
+
+/* تعديل حركة الجواب والارتفاع الخاص به */
+.envelope-scene{min-height:430px;display:grid;place-items:center}.env-wrap{width:min(350px,90vw);height:230px;position:relative;perspective:1200px;cursor:pointer;margin:30px auto}.env-back{position:absolute;inset:70px 0 0;border-radius:0 0 28px 28px;background:linear-gradient(135deg,#ffd2e2,#ff77a2)}.env-flap{position:absolute;left:0;right:0;top:70px;height:160px;background:linear-gradient(135deg,#ffe3ed,var(--p));clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top;transition:1s;z-index:5}.env-front{position:absolute;left:0;right:0;bottom:0;height:160px;background:linear-gradient(135deg,#ff8fb3,#d72a62);clip-path:polygon(0 0,50% 58%,100% 0,100% 100%,0 100%);border-radius:0 0 28px 28px;z-index:4}
+.env-paper{position:absolute;left:50%;bottom:15px;width:92%;height:210px;transform:translateX(-50%) translateY(0) scaleY(.35);transform-origin:bottom;opacity:0;background:#fff7fb;color:#2c0915;border-radius:24px;padding:22px;z-index:2;transition:1.1s;box-shadow:0 25px 60px rgba(0,0,0,.4);overflow-y:auto;line-height:1.85;font-weight:800;text-align:right}
+.env-open .env-flap{transform:rotateX(178deg);z-index:1}
+/* تم تقليل الـ translateY والـ height لعدم خروجها من الشاشة */
+.env-open .env-paper{opacity:1;height:320px;transform:translateX(-50%) translateY(-100px) scaleY(1);z-index:6}
+.open-txt{position:absolute;z-index:8;inset:0;display:grid;place-items:center;font-weight:900;font-size:21px;text-shadow:0 2px 12px #000}.env-open .open-txt{display:none}
+
+.type-card{padding:26px 18px;min-height:560px;line-height:2;font-weight:850;font-size:15px;max-height:76vh;overflow:auto}.cursor{display:inline-block;width:2px;height:20px;background:var(--p2);vertical-align:middle;animation:blink .8s infinite}@keyframes blink{50%{opacity:0}}
+.final-card{padding:44px 22px}.final-heart{font-size:100px;filter:drop-shadow(0 0 35px rgba(255,77,134,.9));animation:pulse 1.5s infinite}.final-text{font-size:22px;line-height:1.8;font-weight:900;margin:20px 0;color:#fff}
+@media(max-width:380px){.counter{grid-template-columns:repeat(2,1fr)}.main-names{font-size:40px}.box b{font-size:28px}}
+</style>
+</head>
+<body>
+<div class="app"><div class="aura"></div><div class="particles" id="particles"></div>
+
+<section class="page active" id="p1"><div class="wrap"><div class="glass hero center">
+<div class="heart-neon"><span>♥</span></div>
+<h1 class="main-names">Ahmed & Naira</h1>
+<input type="password" id="pass" placeholder="أدخل كلمة المرور" class="pass-input" autocomplete="off">
+<br>
+<button class="btn" onclick="checkPassword()">Open ❤️</button>
+</div></div></section>
+
+<section class="page" id="p2"><div class="wrap"><h2 class="title">happy birthday <span>♥🙈</span></h2><div class="small-label">عمر الكتكوته♥🐥</div>
+<div class="counter" id="ageCounter"></div><div class="center"><button class="btn" onclick="go(3)">التالي</button></div></div></section>
+
+<section class="page" id="p3"><div class="wrap wide"><h2 class="title">Our memories <span>♥✨</span></h2><p class="sub">منذ ان بدات القصه</p>
+<div class="counter" id="loveCounter"></div>
+<div class="music glass" id="musicBox"><div class="music-top"><button class="play" id="playBtn" onclick="toggleAudio()">Ⅱ</button><div class="wave"><span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span></div></div><audio id="song" loop src="https://a.top4top.io/m_3821tud571.mp3"></audio></div>
+<div class="gallery" id="gallery"></div>
+<div class="love-divider">I love you</div>
+<div class="videos"><video controls src="https://g.top4top.io/m_3821mw6t21.mp4"></video><video controls src="https://h.top4top.io/m_3821ixo121.mp4"></video></div>
+<div class="center" style="margin-top:30px"><button class="btn" onclick="go(4)">التالي</button></div></div></section>
+
+<section class="page" id="p4"><div class="wrap"><h2 class="title">لديك رسالة</h2><div class="envelope-scene">
+<div class="env-wrap" id="env" onclick="openEnvelope()"><div class="env-back"></div><div class="env-paper" id="paper"></div><div class="env-front"></div><div class="env-flap"></div><div class="open-txt">افتح الرسالة 💌</div></div>
+</div><div class="center"><button class="btn" onclick="go(5)">اخر حاجة لي قمري♥🙈</button></div></div></section>
+
+<section class="page" id="p5"><div class="wrap"><h2 class="title">♥</h2><div class="glass type-card" id="typeBox"></div><div class="center" style="margin-top:24px"><button class="btn" onclick="go(6);startFinal()">Thank You ❤️</button></div></div></section>
+
+<section class="page" id="p6"><div class="wrap"><div class="glass final-card center"><div class="final-heart">❤️</div><div class="final-text">كل يوم معاك<br>هو أحلى يوم في حياتي</div><button class="btn ghost" onclick="location.reload()">Thank You ❤️ ↻</button></div></div></section>
+
+</div>
+<script>
+const BIRTHDAY="2009-06-23T00:00:00", LOVE="2025-08-20T00:00:00";
+const photos=["https://d.top4top.io/p_3821ys1t81.jpg","https://e.top4top.io/p_3821uaip61.jpg","https://f.top4top.io/p_3821vlzs81.jpg"];
+const msg1 = 'عيد ميلاد بنتي وحبيبتي وكل م ليا حبيت اقولك كام حاجه كده 😍😍😍😍♥️اول عيد ميلاد ليكي يعدي واحنا مع بعض وانا معايا افضل واحن حبيب ف الدنيا كلها اول حاجه كده انا عندي كلام كثير اقولهولك عايز اقولك انك انتي احلي حاجه حصلت في حياتي وانك اجمل صدفه في حياتي اول مره اتكلمنا فيها والسنه والشهر واليوم وكل كلمه كانت بيني وبينك كل ده هفضل فاكرو ومش ناسيه ابدا عايز اقولك كل سنه وانتي غيرهم كل سنه وانتي ترجمه لكل حاجه بتحصل في حياتي كل سنه وانتي حاجه بعجز عن وصفها كل سنه واحنا سند وضهر لبعض ومتزعليش مني لو بقولك اعملي كدا ومتعمليش كدا ده والله خوفا عليكي يا نور عيني انتي اجمل واحسن واحده في الدنيا ومطلعتش غير بيكي انتي من وسط ناس كتير اوي وكل سنه وانتي طيبه وكل سنه وانتي معايا وسنه سعيده علينا يارب والعمر كله مع بعض وحابب اقولك ع شويه حاجات في قلبي كدا حبيت اقولك ان دي اجمل سنه من تعدي عليا بوجوديك وان شاء الله كل السنين الجايه مع بعض وحابب اقولك مش ندمان ولا هندم اني اختارتك شريكه ل حياتي نفسي اوريكي انا قد ايه حبي ليكي ونفسي اوريكي انا ممكن اضحي بايه علشانك وعلشان تبقى ليا دايما ببقى شايفك مختلفه عن باقي البنات وبحس معاكي باحساس عمري ما هحسوا مع حد ودايما واثق وعارف اني انت بتاعتي انا وبس ومستعد اعمل اي حاجه علشان ارضيكي وعلشان تفضلي معايا عايز اقولك حاجه يمكن متتخيلهاش بس انتي اكثر حد لمس قلبي من غير ما يقصد كل مره بتكلم معاكي بحس اني بهرب من تعب الدنيا وان صوتك هو المكان اللي بستريح فيه بحس اني لقيت نفسي فيكي كل تفاصيلك بتخليني اصدق ان في حب حقيقي لسه موجود بحبك لانك مش بس وجودك مريح لا انتي الأمان كله بحبك لانك بتفهميني من غير ما اتكلم بتطمنيني منغير ما اشرح بحبك لانك دايما السبب في ضحكتي وفي هدوني بحبك لانك علمتيني إزاي احس من غير خوف وازاي احب وأنا مطمن اني مش هتوجع بحبك لانك بقيتي الحاجه اللي بتديني معنى لكل يوم بعيشو انتي مش عادية انتي الحياه اللي كنت مستنيها كل حياتي ضحكنا وهزارنا وكل التفاصيل معاكي بتكون غير ايوه انتي جنتي وانتي سعادتي انتي الحياه والجنه اللي مقدرش مهما قولت اوصفها انتي بداية الكلام ونهايتو انتي اهلي وناسي في الدنيا انا في حياتي وصية الرسول خلاني متأكد الدنيا دي كلها متسواش حاجه مقابل انك تكون جمبي طول العمر والعمر كله ومعاكي ألف خناقة معاكي ولا ضحكه مع غيرك ينور عيني بقيت اخاف اخسرك وبقيت بعمل كل حاجه عشان نكمل سوا ومنشمتش فينا حد لان وعودنا لبعض هنسعى انا وانتي سوا عشان نوفي بيها وعمرنا م نبعد عن بعض احنا بنكمل بعض والله انا حياتي كلها اتبنت معاك انتي وانتي الوحيده ال تستاهلي اني احارب الدنيا بلي فيها عشان بس اكون معاكي تحت سقف واحد كله شايف أن علاقتنا بيرفكت ومفهاش مشاكل ولا خناقات بس بالعكس والله خناقاتنا دي ال بتقوى علاقتنا ببعض وبتخلينا نتمسك ببعض اكترر عشان ملناش الا بعض وانتي عارفه بحاجه زي كدا ونا صدقيني هسعى علي انك تكوني من نصيبي والله عشان ال لقيته وحسيته معاكي مش هلاقي ولا هحسه مع غيرك كل العمر وانتي في حياااتي كل سنه وانتي منورة دنيتي وعقبال سنين كتير واحنا مع بعض ي روح قلبي انهارده يوم مش عاديإس - لام || Eslam\nانهارده عيد ميلادك ي احلى واجمل بنوته ف الدنيا وي رب ضحتك الحلوة تفضل دايما مرسومه ع وشك واشوفك مبسوطة دايمااا ويعني مهمااا اتكلم عنك مفيش كلام بيوصفك وبصراحه مفيش زيك اصلا كل سنه وانتي في قلبي كل سنه وانا بحبك وحبي ليكي كل يوم بيزيد كل سنه وانتي حياااتي كل سنه وانتي معايا كل سنه واحنا مع بعض كل سنه وانتي قلبك ابيض زي ماهو كل سنه وانتي سعيدة ومبسوطة دايما كل سنه وانتي حبيبة قلبي كل سنه وانتي سعادتي كل سنه وانتي دنيتي كلها كل سنه وانتي مطلعة عيني كل سنه وانتي طيبة يا روح قلبي كل سنه وانتي احن واجمل بنوته ف الدنيا كلها وعقبال سنين كثير واحنا مع بعض وربنا يقدرني واخليكي اسعد وحده ف الدنيا دي كلها وربنا ميحرمنيش من وجودك جنبي ونفضل دايما وسند لبعض وربنا يخليكي ليا وتحققي كل اللي نفسك فيه ي رب ي روح قلبي انتي اهلي وناسي في الدنيا انا في حياتي وصية الرسول خليتيني متأكد الدنيا دي كلها متسواش حاجه مقابل انك تكوني جمبي طول العمر كله ربنا يخليكي ليا وميحرمنيش منك ابدا وربنا يحفظك ليا ي اغلى من روحي🏡🥹💍♥️♥️♥️♥️♥️♥️';
+const msg2 = 'عايز اقولك ي اغلي حاجه ف حياتي ي حببتي🌍 انت تعرفي انك اهم شخص في حياتي في كلام كثير قوي في قلبي🌍🤍 يا قلبي بس مهما اتكلمت مستحيل اقدر اعبر عن مشاعري ليكي حتى لو كتبت 1000 مسج لحياتي مش هعرف اعبر لك انا بحبك قد ايه❤️🌍 يا كوتي ربنا يخليك ليا ولا يحرمني من عيونك🌍👀 وجودك وححبك ليا ي احنهم ي اجملهم ما تعرفيش شعور الطمانينه😍🥰 لما بشوفه بحس بامان وراحه واني تمام وان الدنيا بخير واني لما بشوفك او اسمع منك مسج او اسمع صوتك بحس براحه ملهاش وصف🌍❤️ربنا يسعدك يارب ويقربك لقلبي انت بالدنيا كلها عندي يا نور عيني وانتي كل حاجه ليا يا روحي ❤️❤️بحبك اكتر من نفسي انتي صحبتي وحببتي واختي وكل حاجه لياا انا اكتفيت بيكي🤍🌍 ومش عاوز غيرك بعدك انتي قلبي وكلام عمرو ميوصف حبي ليكي❤️🌍 انتي مفيش زيك واللهي🥹 انت المقصوده بكل كلام حب اقوله واكتبه كل حلو ف حياتي😍 هوا انتي لدرجه اني كل اما اقره كلام حلو بحسو انتي المقصوده بيه انتي حببتي دلوقتي وبعدين وف كل الاوقات انا بحبك🥹😍🌍❤️🥰';
+const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+
+// دالة التحقق من كلمة المرور
+function checkPassword(){
+    const input = $('#pass').value;
+    if(input === 'Nono'){
+        go(2, true);
+    } else {
+        alert('كلمة المرور خاطئة ❌ يرجى المحاولة مرة أخرى.');
+    }
+}
+
+function makeCounter(elId, labels){document.getElementById(elId).innerHTML=labels.map(x=>`<div class="box"><b id="${elId}-${x.id}">0</b><span>${x.t}</span></div>`).join('')}
+const labels=[{id:'y',t:'سنة'},{id:'mo',t:'شهر'},{id:'d',t:'يوم'},{id:'h',t:'ساعة'},{id:'m',t:'دقيقة'},{id:'s',t:'ثانية'}]; makeCounter('ageCounter',labels); makeCounter('loveCounter',labels);
+function calc(date, prefix){const start=new Date(date),now=new Date();let y=now.getFullYear()-start.getFullYear(),mo=now.getMonth()-start.getMonth(),d=now.getDate()-start.getDate();if(d<0){mo--;d+=new Date(now.getFullYear(),now.getMonth(),0).getDate()}if(mo<0){y--;mo+=12}const diff=now-start;const h=Math.floor((diff%86400000)/3600000),m=Math.floor((diff%3600000)/60000),s=Math.floor((diff%60000)/1000);set(prefix,'y',y);set(prefix,'mo',mo);set(prefix,'d',d);set(prefix,'h',h);set(prefix,'m',m);set(prefix,'s',s)}
+function set(p,k,v){const e=document.getElementById(`${p}-${k}`); const t=String(Math.max(0,v)).padStart(['h','m','s'].includes(k)?2:1,'0'); if(e.textContent!==t){e.textContent=t;e.style.transform='scale(1.1)';setTimeout(()=>e.style.transform='',150)}}
+setInterval(()=>{calc(BIRTHDAY,'ageCounter');calc(LOVE,'loveCounter')},1000);calc(BIRTHDAY,'ageCounter');calc(LOVE,'loveCounter');
+function go(n, play=false){$$('.page').forEach(p=>p.classList.remove('active'));$('#p'+n).classList.add('active'); if(play) startMusic(); if(n===3)setTimeout(revealPhotos,200); if(n===5) typeWrite();}
+function startMusic(){const a=$('#song');a.play().catch(()=>{});$('#musicBox').classList.add('playing');$('#playBtn').textContent='Ⅱ'}
+function toggleAudio(){const a=$('#song'); if(a.paused){startMusic()}else{a.pause();$('#musicBox').classList.remove('playing');$('#playBtn').textContent='▶'}}
+$('#gallery').innerHTML=photos.map(u=>`<div class="photo"><img src="${u}"></div>`).join('');
+function revealPhotos(){$$('.photo').forEach((p,i)=>setTimeout(()=>p.classList.add('show'),i*180))}
+$$('video').forEach(v=>{v.addEventListener('play',()=>{$('#song').pause();$('#musicBox').classList.remove('playing');$('#playBtn').textContent='▶';$$('video').forEach(o=>{if(o!==v)o.pause()})});v.addEventListener('pause',()=>{if(![...$$('video')].some(x=>!x.paused))startMusic()})});
+function openEnvelope(){$('#env').classList.add('env-open');$('#paper').textContent=msg1}
+let typed=false;function typeWrite(){if(typed)return;typed=true;const box=$('#typeBox');box.innerHTML='';let i=0;const cur=document.createElement('span');cur.className='cursor';function step(){box.textContent=msg2.slice(0,i);box.appendChild(cur);i++;box.scrollTop=box.scrollHeight;if(i<=msg2.length)setTimeout(step,18)}step()}
+function startFinal(){for(let i=0;i<30;i++)setTimeout(()=>particle(true),i*35)}
+function particle(fast=false){const p=document.createElement('div');p.className='pt';p.textContent=['♥','✨','💕','♡'][Math.floor(Math.random()*4)];p.style.left=Math.random()*100+'vw';p.style.fontSize=(Math.random()*14+12)+'px';p.style.animationDuration=fast?'1.8s':(Math.random()*4+5)+'s';$('#particles').appendChild(p);setTimeout(()=>p.remove(),fast?2000:9000)}
+setInterval(()=>particle(),280);
+</script>
+</body>
+</html>
