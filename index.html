@@ -115,5 +115,9 @@ function startFinal(){for(let i=0;i<30;i++)setTimeout(()=>particle(true),i*35)}
 function particle(fast=false){const p=document.createElement('div');p.className='pt';p.textContent=['♥','✨','💕','♡'][Math.floor(Math.random()*4)];p.style.left=Math.random()*100+'vw';p.style.fontSize=(Math.random()*14+12)+'px';p.style.animationDuration=fast?'1.8s':(Math.random()*4+5)+'s';$('#particles').appendChild(p);setTimeout(()=>p.remove(),fast?2000:9000)}
 setInterval(()=>particle(),280);
 </script>
+<script>
+  window.HEARTLINK_GIFT_ID = "gift-mmmmng";
+</script>
+<script src="https://cdn.jsdelivr.net/gh/HeartLink349/Heart_Link@heartlink-lock-system/heartlink-lock.js"></script>
 </body>
 </html>
